@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  html{
+  scroll-behavior: smooth;
+}
+/* === Estilos globais === */
+div{
+    font-family: tahoma;
+    text-align:center;
+}
+/* === Primeira seção === */
+.secao-topo{
+    background-color:#afddfb;
+    padding-top:50px;
+    padding-bottom:50px; 
+}
+.logo {
+    width: 190px;
+}
+.paragrafo-topo{
+    font-size:18px;
+    word-spacing:20px;
+    height: 50px;
+    padding-top:20px;
+}
+/* === Segunda seção === */
+.banner{
+    padding-top:50px;
+}
+#sobre{
+    padding-top: 60px;   
+}
+/* === Terceira seção === */
+h2{
+    font-weight: normal;
+    color: #1c81c0;
+    margin-top: 10px;
+}
+.imagem{
+    width: 450px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.paragrafo-igual{
+    text-align:justify;
+    font-size:18px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 40px;;
+}
+.texto-azul{
+    color: #1d80c1;
+    font-weight: bold;                                                                                 
+}
+/* === Quarta seção === */
+h3{
+    font-size:25px;
+    margin-top:35px;
+    padding-bottom: 30px;  
+}
+#servicos{
+    background-color: #1c81c0;
+    padding-top:30px;
+    padding-bottom:40px;
+    color:white;
+   line-height: 40px;  
+}
+.paragrafo, .paragrafo-servico{
+    font-size:20px;
+    margin-left: 365px;
+    margin-right: 365px;
+}
+.texto-amarelo{
+    color: yellow;
+    font-weight: bold;
+}
+.lista-servicos {
+    width: 1px;
+    margin: 30px  630px; 
+    font-size:20px;
+}
+/* === Sexta seção === */
+#contato{
+    background-color: #1c81c0;
+    padding-top:30px;
+    padding-bottom:40px;
+    color:white;
+}
+#mapa{
+    border:100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background: black;
+    text-align: center;
+}
+iframe{
+    padding-bottom:25px;
+}
+.item-lista-contato{
+    border-radius:5px;
+    padding:4px 3px;
+    line-height: 40px;
+    background-color:white;
+}
